@@ -176,7 +176,12 @@ p{
     .anime-summary-container{
         flex-wrap: wrap;
         justify-content: center;
+        padding: 0rem;
   
+    }
+
+    .poster-img{
+        margin-right: 0rem;
     }
 
     .info-container{
@@ -206,6 +211,7 @@ p{
         flex-wrap: wrap;
         justify-content: center;
         padding-right: 2rem;
+        padding-left: 2rem;
     }
 
     .anime-summary{
