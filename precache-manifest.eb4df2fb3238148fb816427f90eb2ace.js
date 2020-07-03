@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "22c582d83b42d4b69a5a814bd84c6581",
+    "revision": "f2d15054e5f5ce0da12b6744b640f111",
     "url": "/Anime-Web-App-React/index.html"
   },
   {
-    "revision": "1f774cc04ea4b454f9e6",
+    "revision": "e52b4c9d51b68da41a2f",
     "url": "/Anime-Web-App-React/static/css/main.16836b94.chunk.css"
   },
   {
-    "revision": "533f91608be88f7b0d6c",
-    "url": "/Anime-Web-App-React/static/js/2.e329b3e9.chunk.js"
+    "revision": "53d4aa7dbf26cf20aeb4",
+    "url": "/Anime-Web-App-React/static/js/2.27df9909.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Anime-Web-App-React/static/js/2.e329b3e9.chunk.js.LICENSE.txt"
+    "url": "/Anime-Web-App-React/static/js/2.27df9909.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1f774cc04ea4b454f9e6",
-    "url": "/Anime-Web-App-React/static/js/main.1603bce0.chunk.js"
+    "revision": "e52b4c9d51b68da41a2f",
+    "url": "/Anime-Web-App-React/static/js/main.9db9e34d.chunk.js"
   },
   {
     "revision": "c66f1f379ca64f09b98c",
