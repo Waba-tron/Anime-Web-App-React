@@ -42,7 +42,6 @@
     font-size: 15px;
     background-color: white;
     border: 1px solid #e5e5e5;
-    margin-left: 0.5rem;
     list-style: none;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
@@ -53,6 +52,11 @@
     outline: 0;
     background-color: #f7f7f7;
 }
+
+.mobile-buttons{
+    display: none;
+}
+
 
 @media only screen and (max-width: 768px) {
 
@@ -72,6 +76,10 @@
     .buttons-container{
         display: flex;
         justify-content: center;
+    }
+
+    .web-buttons{
+        display: none;
     }
 
    

@@ -178,6 +178,10 @@ p{
         justify-content: center;
   
     }
+
+    .info-container{
+        padding-left: 0;
+    }
       
 }
 
@@ -217,5 +221,8 @@ p{
         margin-top: 0rem;
         margin: 0.2rem;
     }
+
+  
+    
       
 }
