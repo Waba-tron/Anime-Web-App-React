@@ -1,0 +1,78 @@
+.episodes-container{
+    width: 100%;
+
+}
+.episodes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.episode-card{
+    width: 200px;
+    background-color: white;
+    margin: 0.5rem;
+    padding: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+    border: 1px solid rgba(0,0,0,.09);
+    cursor: pointer;
+
+}
+
+.episode-card img{
+    width: 100%;
+    height: 116px;
+    object-fit: cover;
+}
+
+.episode-card h4{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+    font-weight: 200;
+}
+.caption{
+
+    font-family: 'Open sans', sans-serif;
+    font-weight: 100;
+    color: #999;
+}
+
+.pagination-button{
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    margin-left: 0.5rem;
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    color: #464646;
+}
+
+.pagination-button:focus{
+    outline: 0;
+    background-color: #f7f7f7;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .episodes{
+        justify-content: center;
+    }
+
+    .episodes-container h1{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .episode-card {
+        width: 150px;
+    }
+
+    .buttons-container{
+        display: flex;
+        justify-content: center;
+    }
+
+   
+}
