@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e8f8867e8202a5dd789aa660c54bd4fe",
+    "revision": "609ccf745269ab319455a70d40d0b5ab",
     "url": "/Anime-Web-App-React/index.html"
   },
   {
