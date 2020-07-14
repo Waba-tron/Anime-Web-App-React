@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "609ccf745269ab319455a70d40d0b5ab",
+    "revision": "fd3b371d50e12ad8f3ab468dd43f18cb",
     "url": "/Anime-Web-App-React/index.html"
   },
   {
-    "revision": "4e8e4dd7dba1b5e9f99f",
-    "url": "/Anime-Web-App-React/static/css/main.e2b0bc35.chunk.css"
+    "revision": "b0b04f4f285238f5e974",
+    "url": "/Anime-Web-App-React/static/css/main.bf243500.chunk.css"
   },
   {
     "revision": "53d4aa7dbf26cf20aeb4",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Anime-Web-App-React/static/js/2.27df9909.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4e8e4dd7dba1b5e9f99f",
-    "url": "/Anime-Web-App-React/static/js/main.192158ca.chunk.js"
+    "revision": "b0b04f4f285238f5e974",
+    "url": "/Anime-Web-App-React/static/js/main.bb26a56b.chunk.js"
   },
   {
     "revision": "c66f1f379ca64f09b98c",
