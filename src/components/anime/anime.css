@@ -97,26 +97,39 @@
 }
 
 /* Anime details box */
+
+.anime-details-card{
+ 
+}
 .anime-details{
     
-    padding: 0 1rem;
-    width: 200px;
-    max-height: 410px;
+ 
+    width: 220px;
+    min-height: 95%;
     font-size: 1rem;
-    background-color: white;
     border-radius: 1%;
-    border: 1px solid #e5e5e5;
+
+
 }
 
+.anime-details ul h4 {
+    margin: 0;
+}
 
+.anime-details ul{
+    background-color: white;
+    border: 1px solid #e5e5e5;
+    padding: 1rem;
+}
 
-.anime-details ul li{
+ ul li{
  
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 1rem;
     color: #464646;
     align-items: center;
+
 }
 
 .anime-details ul li>strong {

@@ -48,10 +48,14 @@ export default function AnimeSummary({summaryData, title, Genres}) {
             
             </div>
 
-
+         
+                
                 <div className="anime-details">
-                <h4>Anime Details</h4>
+       
                 <ul>
+                    <li>
+                    <h4>Anime Details</h4>
+                    </li>
                     <li>
                     <strong>Title</strong> <span>{title}</span>
                     </li>
@@ -85,6 +89,7 @@ export default function AnimeSummary({summaryData, title, Genres}) {
                 </ul>
               
                 </div>
+                
              
         </div>
             

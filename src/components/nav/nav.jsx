@@ -6,31 +6,23 @@ import {NavLink} from 'react-router-dom';
 import {Link} from 'react-router-dom';
 export default function Nav({match}) {
     
-    console.log(match)
+
     const [searchState, setSearch] = useState('');
     const [searchResults, setSearchResults] = useState([]);
     const [searchLoading, setSearchLoading] = useState(true);
   
-    const search = (e) =>{
- 
-        const fetchAnime = async () => {
+    const search = async (e) => {
+        
+        setSearchLoading(true);
 
-            setSearchLoading(true);
-     
-            const data = await fetch(`https://kitsu.io/api/edge/anime?filter[text]=${searchState}`);
-
-            const Anime = await data.json();
-            
-            setSearchResults(Anime.data);
-                
-            setSearchLoading(false);
-            
-            
-        }
-
-        fetchAnime();
-
+        const data = await fetch(`https://kitsu.io/api/edge/anime?filter[text]=${searchState}`);
+        const Anime = await data.json();
+        setSearchResults(Anime.data);
+    
+        setSearchLoading(false);
+      
     }
+
 
     return (
         <div>
@@ -38,12 +30,16 @@ export default function Nav({match}) {
                 <Link to={'/'} className="home-link">
                 AWA
                 </Link>
-
+      
                 <div className="search-box">
-                    <input className="search-bar" onChange={e => {setSearch(e.target.value)}} onKeyPress={search}placeholder="search..." />
+                   
+                    <input className="search-bar" onChange={e => {setSearch(e.target.value)}} onKeyPress={search}  placeholder="search..." />
+
                     <i class="fas fa-search"></i>
+
                 </div>
-         
+
+             
 
                {searchState === '' ? '' :
                

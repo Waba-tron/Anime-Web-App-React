@@ -139,8 +139,8 @@ export default function Anime({match}) {
 
                 <img className="poster-img" src={animePoster}></img>
 
-            <Route exact path="/anime/:animeId/summary" component={() => <AnimeSummary title={animeTitle} summaryData={AnimeSummaryData} Genres={animeGenres}/>} />
-            <Route exact path="/anime/:animeId/episodes" component={()=> <AnimeEpisodes episodeData={animeEpisodes} gotoNextPage={nextPageUrl?gotoNextPage : null} gotoPrevPage={prevPageUrl ? gotoPrevPage : null} loadingEpisode={episodeLoading} posterImg={animePoster}/>}/>
+                <Route exact path="/anime/:animeId/summary" component={() => <AnimeSummary title={animeTitle} summaryData={AnimeSummaryData} Genres={animeGenres}/>} />
+                <Route exact path="/anime/:animeId/episodes" component={()=> <AnimeEpisodes episodeData={animeEpisodes} gotoNextPage={nextPageUrl?gotoNextPage : null} gotoPrevPage={prevPageUrl ? gotoPrevPage : null} loadingEpisode={episodeLoading} posterImg={animePoster}/>}/>
 
             </div>
             </div>
