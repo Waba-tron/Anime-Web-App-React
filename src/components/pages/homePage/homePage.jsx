@@ -69,7 +69,7 @@ export default function HomePage() {
                  
                     {
                         animeCatogories.map(currentCatogory =>
-                        <Link className="catogory-link" to={`catogories/${currentCatogory.attributes.title}`}>{currentCatogory.attributes.title}</Link>
+                        <Link className="catogory-link" to={`categories/${currentCatogory.attributes.title}`}>{currentCatogory.attributes.title}</Link>
                         )
                     }
                

@@ -17,7 +17,7 @@ function App() {
           <Switch>
           <Route path='/' exact component={HomePage}/>
           <Route path="/anime/:animeId" component={Anime}/>
-          <Route exact path="/catogories/:catogory" component={CatogoriesPage}/>
+          <Route exact path="/categories/:category" component={CatogoriesPage}/>
           <Route path="/" render={()=><ErrorPage/>} />
           </Switch>
         </div>
