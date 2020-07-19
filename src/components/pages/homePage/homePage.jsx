@@ -65,7 +65,7 @@ export default function HomePage() {
                 </div>
 
                 <div className="catogory-container">
-                    <h3>Catogories</h3>
+                    <h3>Categories</h3>
                  
                     {
                         animeCatogories.map(currentCatogory =>
